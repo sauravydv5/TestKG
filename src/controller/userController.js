@@ -1,6 +1,6 @@
-const authService = require("../service/authService");
+const authService = require("../Service/authService");
 const validator = require("validator");
-const userProfile = require("../service/profileService");
+const userProfile = require("../Service/profileService");
 
 const register = async (req, res) => {
   try {
